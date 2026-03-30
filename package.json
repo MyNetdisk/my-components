@@ -1,0 +1,23 @@
+{
+  "name": "my-components",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Vue 3组件库",
+  "scripts": {
+    "build": "pnpm -F @mynetdisk/components run build",
+    "dev": "pnpm -F examples run dev",
+    "docs:dev": "pnpm -F examples run docs:dev",
+    "docs:build": "pnpm -F examples run docs:build"
+  },
+  "keywords": [
+    "vue",
+    "components",
+    "library"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

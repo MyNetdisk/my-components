@@ -1,0 +1,17 @@
+{
+  "name": "@mynetdisk/utils",
+  "version": "1.0.1",
+  "type": "module",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "vite-plugin-dts": "^3.0.0"
+  }
+}
